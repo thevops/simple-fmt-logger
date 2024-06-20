@@ -1,0 +1,20 @@
+{
+  "name": "simple-fmt-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "tsdoc --src=src/* --dest=README.md",
+    "example": "ts-node src/example/example.ts",
+    "format": "prettier --write src/**/*"
+  },
+  "author": "Krzysztof Łuczak",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "eslint": "^9.5.0",
+    "prettier": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
