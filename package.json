@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "docs": "tsdoc --src=src/* --dest=README.md",
     "example": "ts-node src/example/example.ts",
     "format": "prettier --write src/**/*"
